@@ -1,4 +1,4 @@
-懸案だったCORSの問題が解決しました。<br>
+懸案だったCORSの問題が解決したので、見本として飾っておきます。<br>
 どうやら、CORSの許可をする前にhttp通信を許可しないといけないようです。<br>
 
-まず、SpringSecurityを追加しHttpSecurityを許可します。その後、CORSを許可することで、初めて通信が可能になります。<br>
+まず、SpringSecurityを追加することで、HttpSecurityを許可します。その後、CORSを許可することで、初めて通信が可能になります。<br>
